@@ -1,0 +1,13 @@
+"use client"
+
+
+export default function Error({ error, reset }){
+    return(
+        <div>
+            This aint loading up: {error.message}
+            <button onClick={() => reset()}>Reload</button>
+            <button onClick={() => error()}>Error</button>
+        </div>
+    )
+
+}
