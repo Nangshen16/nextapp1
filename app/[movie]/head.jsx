@@ -1,12 +1,6 @@
-import React from 'react'
 
-const head = () => {
-  return (
-    <div>head</div>
-  )
-}
 
-export default function head({params}) {
+export default function Head({params}) {
     return(
         <>
            <title>{params.movie}</title>
